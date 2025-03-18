@@ -1,0 +1,52 @@
+:root {
+  --main-branding-color: lightpink;
+}
+.Weather {
+  border: 1px solid var(--main-branding-color);
+  border-radius: 8px;
+  margin: 30px auto;
+  max-width: 800px;
+
+  padding: 20px;
+}
+
+.search-bar {
+  border: 1px solid var(--main-branding-color);
+}
+
+.search-button {
+  border: 1px solid var(--main-branding-color);
+}
+
+.search-button:hover {
+  background: var(--main-branding-color);
+}
+
+.Weather h1 {
+  color: var(--main-branding-color);
+  margin-top: 30px;
+}
+
+.Weather .temperature {
+  color: var(--main-branding-color);
+  font-size: 64px;
+  line-height: 64px;
+  position: relative;
+  top: -6px;
+}
+
+.Weather .units {
+  line-height: 64px;
+  vertical-align: top;
+  position: relative;
+  top: -18px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+}
