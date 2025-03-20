@@ -2,7 +2,8 @@
   --main-branding-color: lightpink;
 }
 .Weather {
-  border: 1px solid var(--main-branding-color);
+  background: rgba(255, 255, 255, 0.6);
+
   border-radius: 8px;
   margin: 30px auto;
   max-width: 800px;
@@ -11,11 +12,10 @@
 }
 
 .search-bar {
-  border: 1px solid var(--main-branding-color);
 }
 
 .search-button {
-  border: 1px solid var(--main-branding-color);
+  border: 1px solid black;
 }
 
 .search-button:hover {
@@ -23,17 +23,19 @@
 }
 
 .Weather h1 {
-  color: var(--main-branding-color);
+  color: black;
+  font-size: 48px;
   margin-top: 30px;
 }
 
 .weather .icon {
   margin-top: 0;
+  vertical-align: top;
   size: 64px;
 }
 
 .Weather .temperature {
-  color: var(--main-branding-color);
+  color: black;
   font-size: 64px;
   line-height: 64px;
 }
@@ -42,7 +44,7 @@
   line-height: 64px;
   vertical-align: top;
   position: relative;
-  top: -18px;
+  top: -16px;
 }
 
 .Weather ul {
