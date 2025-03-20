@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import ReactAnimatedWeather from "react-animated-weather";
 import WeatherInfo from "./WeatherInfo";
 import "./Weather.css";
 
@@ -14,7 +13,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       date: new Date(response.data.time * 1000),
       city: response.data.city,
-      icon: response.data.condition.icon_url,
+      icon: response.data.condition.icon,
       humidity: response.data.temperature.humidity,
       description: response.data.condition.description,
     });
