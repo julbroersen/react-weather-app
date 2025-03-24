@@ -14,7 +14,7 @@ export default function App() {
             <a
               href="https://juliana-broersen.netlify.app/"
               target="_blank"
-              rel="noreferrer"
+              rel=" noopener noreferrer"
             >
               Juliana Broeresn
             </a>
@@ -24,7 +24,7 @@ export default function App() {
             <a
               href="https://github.com/julbroersen/react-weather-app"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               GitHub
             </a>
