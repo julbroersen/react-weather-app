@@ -1,8 +1,12 @@
 .WeatherForecast {
   text-align: center;
+  font-size: 12px;
 }
 
 .WeatherForecast-min {
   opacity: 0.6;
   margin-left: 5px;
+}
+
+@media (max-width: 767.98px) {
 }

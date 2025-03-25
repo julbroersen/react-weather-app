@@ -15,6 +15,7 @@
 
 .search-button {
   background: rgba(169, 217, 239);
+  color: white;
   font-size: 12px;
 }
 
@@ -57,4 +58,10 @@
 .Weather li {
   font-size: 12px;
   list-style: none;
+}
+
+@media (max-width: 767.98px) {
+  .Weather .temperature {
+    font-size: 64px;
+  }
 }
